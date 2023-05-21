@@ -9,6 +9,7 @@ export default function Cards(props) {
       sx={{
         display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: "20px",
       }}
+      className='card'
     >
       <Box >
         {Object.entries(data).map(([label, value]) => (
